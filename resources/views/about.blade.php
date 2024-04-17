@@ -1,7 +1,14 @@
 @extends('layout')
 
-@section('main_content')
-    <h1>Страница О Нас</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ipsam nihil, quidem quod repellat voluptates? Amet commodi earum error maiores repellendus vel. Dignissimos eligendi esse, minus optio quae quisquam vel!</p>
+@section('title') О нас @endsection
 
+
+@section('main_content')
+    <main class="container read ">
+        <div class="bg-secondary p-5 rounded mt-3 ">
+            <h1>О нас</h1>
+            <p class="lead">This example is a quick exercise to illustrate how the bottom navbar works.</p>
+            <a class="btn btn-lg btn-warning" href="/docs/5.3/components/navbar/" role="button">Отзывы »</a>
+        </div>
+    </main>
 @endsection
